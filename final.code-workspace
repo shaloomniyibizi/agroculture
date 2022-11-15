@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ecommerce-new"
+		}
+	],
+	"settings": {
+		"marquee.widgets.npm-stats.packageNames": ["final"],
+		"liveServer.settings.multiRootWorkspaceName": "final"
+	}
+}
