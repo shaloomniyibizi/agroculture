@@ -24,4 +24,11 @@
 		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 		<link rel="stylesheet" href="./asset/icon/css/all.css" />
 		<link rel="stylesheet" href="./asset/icon/js/all.js" />
+		
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			#summary {
+				background-color: #f6f6f6;
+			}
+		</style> 
 	</head>

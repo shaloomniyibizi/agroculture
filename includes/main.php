@@ -1,10 +1,6 @@
-</head>
-
-<body>
-
-  <header class="z-10 bg-white shadow-md dark:bg-gray-700">
+<header class="shadow-md bg-gray-50 sticky top-0 left-0 z-[999]">
     <!-- topline -->
-    <div class="page-header__topline bg-primarycolor p-4">
+    <div class="page-header__topline bg-primarycolor px-4 py-1 sticky top-0 left-0 z-[999]">
       <div class="container clearfix clear-both px-28 mx-auto flex justify-between items-center">
 
         <div class="currency flex-1">
@@ -59,7 +55,7 @@ if(!isset($_SESSION['customer_email'])){
       </div>
     </div>
     <!-- bottomline -->
-    <div class="container flex items-center justify-between h-full px-4 mx-auto text-primarycolor dark:text-primarycolor-dark">
+    <div class="container flex items-center justify-between h-full px-4 mx-auto text-primarycolor">
 				<div class="text-xl font-semibold ">Agro-culture</div>
 				<!-- Mobile hamburger -->
 				<button
@@ -100,7 +96,7 @@ if(!isset($_SESSION['customer_email'])){
 							</svg>
 						</div>
 						<input
-							class="w-full pl-8 pr-2 text-sm text-gray-700 placeholder-gray-600 bg-gray-100 border-0 rounded-md dark:placeholder-gray-500 dark:focus:shadow-outline-gray dark:focus:placeholder-gray-600 dark:bg-gray-700 dark:text-gray-200 focus:placeholder-gray-500 focus:bg-white focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input"
+							class="w-full pl-8 pr-2 text-sm text-gray-700 placeholder-gray-600 bg-gray-100 border-0 rounded-md laceholder-gray-500 ocus:shadow-outline-gray ocus:placeholder-gray-600 g-gray-700 ext-gray-200 focus:placeholder-gray-500 focus:bg-white focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input"
 							type="search"
 							placeholder="Search for Product"
 							aria-label="Search"
@@ -114,7 +110,7 @@ if(!isset($_SESSION['customer_email'])){
 							class="px-4 py-8 tex-sm uppercase flex-shrink-0 lg:px-6 lg:text-lg flex items-center"
 						>
 							<span
-								class="absolute top-0 left-0 w-1 h-full bg-gray-200 transform skew-x-[-20deg] block dark:bg-gray-700"
+								class="absolute top-0 left-0 w-1 h-full bg-gray-200 transform skew-x-[-20deg] block g-gray-700"
 							></span>
 							<span class="relative ">Products
 								<span

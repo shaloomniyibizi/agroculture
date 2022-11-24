@@ -110,7 +110,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 						<div class="image-container">
 							<img
 								class="product-detail-image w-96 h-96 object-contain rounded-2xl border-primarycolor border-2 cursor-pointer overflow-hidden transition-all hover:scale-105"
-								src="./asset/image/product-1.jpg"
+								src="./assets/image/<?=$pro_img1?>"
 								alt=""
 							/>
 						</div>
@@ -205,11 +205,8 @@ if ($status == "product") {
 						<div class="quanttity flex gap-8 mt-2 items-center">
 							<h3 class="text-xl font-semibold">Product Quantity:</h3>
 							<?php
-
-    $quantity = 1;  
-?>
-
-
+							$quantity = 1;  
+							?>
 							<p class="quantity-desc border-2 border-gray-900 p-2">
 								<a href="javascript:" id="minus2" onclick="decrementValue()" name="sub" class="minus text-base py-2 px-4 cursor-pointer border-r-2"
 								>

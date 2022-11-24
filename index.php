@@ -2,7 +2,7 @@
 include("functions/functions.php"); ?>
 
 	<body
-		class="font-serif text-textcolor bg-gray-50 dark:bg-gray-700 dark:text-gray-100"
+		class="font-serif text-textcolor bg-gray-50"
 	>
 		<?php include 'includes/main.php' ?>
 		<section class="banner relative hidden sm:block">
@@ -57,7 +57,7 @@ include("functions/functions.php"); ?>
 								<div class="flex-shrink-0">
 									<img
 										class="h-96 w-full object-cover"
-										src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+										src="./asset/image/banner-1.jpg"
 										alt=""
 									/>
 								</div>
@@ -69,7 +69,7 @@ include("functions/functions.php"); ?>
 								<div class="flex-shrink-0">
 									<img
 										class="h-96 w-full object-cover"
-										src="https://images.unsplash.com/photo-1598951092651-653c21f5d0b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+										src="./asset/image/banner-2.jpg"
 										alt=""
 									/>
 								</div>
@@ -81,7 +81,7 @@ include("functions/functions.php"); ?>
 								<div class="flex-shrink-0">
 									<img
 										class="h-96 w-full object-cover"
-										src="https://images.unsplash.com/photo-1598946423291-ce029c687a42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+										src="./asset/image/banner-3.jpg"
 										alt=""
 									/>
 								</div>
@@ -132,7 +132,7 @@ include("functions/functions.php"); ?>
 			</div>
 		</section>
 
-		<main class="px-[9%] py-8 bg-gray-100 dark:bg-gray-700">
+		<main class="px-[9%] py-8 bg-gray-100 g-gray-700">
 			<!-- <section
 				class="banner-container grid lg:grid-cols-3 md:grid-cols-2 gap-4 text-[100%]"
 			>

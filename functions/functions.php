@@ -158,7 +158,7 @@ echo "
 
 <a href='$pro_url' >
 
-<img class='w-full aspect-[3/2] object-cover' src='./asset/image/gallery-img-3.jpg' alt='p1' />
+<img class='w-full aspect-[3/2] object-cover' src='./assets/image/$pro_img1 alt=$pro_img1 />
 
 </a>
 
@@ -323,16 +323,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> $pro_price rwf </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| $pro_psp_price rwf";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "$pro_price rwf";
 
 }
 
@@ -366,7 +366,7 @@ echo "
 
 <a href='$pro_url' >
 
-<img class='w-full aspect-[3/2] object-cover' src='./asset/image/gallery-img-3.jpg' alt='p1' />
+<img class='w-full aspect-[3/2] object-cover' src='./assets/image/$pro_img1' alt=$pro_img1 />
 
 </a>
 
@@ -386,7 +386,7 @@ echo "
 								<a
 									href='#'
 									class='text-primarycolor text-shadow px-2 py-1 text-lg'
-									>$product_price $product_psp_price rwf</a
+									>$product_price $product_psp_price </a
 								>
 							</p>
 						</div><div
