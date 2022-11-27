@@ -26,88 +26,107 @@ $customer_image = $row_customer['customer_image'];
 
 ?>
 
-<h1 align="center" > Edit Your Account </h1>
+<div class="flex items-center min-h-screen p-6 bg-gray-50 ">
+      <div
+        class="flex-1 h-full max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-xl "
+      >
+        <div class="flex flex-col overflow-y-auto md:flex-row">
+          <div class="h-32 md:h-auto md:w-1/2">
+            <img
+              aria-hidden="true"
+              class="object-cover w-full h-full"
+              img src="customer_images/<?php echo $customer_image; ?>"
+              alt="<?php echo $customer_name; ?>"
+            />
+          </div>
+          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+            <div class="w-full">
+              <h1
+                class="mb-4 text-xl font-semibold text-gray-700"
+              >
+                Edit Your Account
+              </h1>
+              <form action="" method="post" enctype="multipart/form-data" >
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Customer Name</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-primarycolor focus:outline-none focus:shadow-outline-primarycolor form-input"
+                  placeholder="Jane Doe"
+                  type="text"
+                  name="c_name" required
+                  value="<?php echo $customer_name; ?>"
+                />
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Customer Email</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="Jane Doe"
+                  type="email"
+                  name="c_email" required
+                  value="<?php echo $customer_email; ?>" />
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Country</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="Rwanda"
+                  type="text"
+                  name="c_country" required
+                  value="<?php echo $customer_country; ?>" />
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">City</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="Rusizi"
+                  type="text"
+                  name="c_city" required
+                  value="<?php echo $customer_city; ?>"/>
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Contact</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="+250 789 104 307"
+                  type="text"
+                  name="c_contact" required
+                  value="<?php echo $customer_contact; ?>"/>
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Address</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="western - rwanda"
+                  type="text"
+                  name="c_address" required
+                  value="<?php echo $customer_address; ?>"
+                />
+              </label>
+              <label class="block text-sm">
+                <span class="text-gray-700 ">Image</span>
+                <input
+                  class="block w-full mt-1 text-sm rounded-lg focus:border-purple-400 focus:outline-none focus:shadow-outline-purple form-input"
+                  placeholder="choose your image"
+                  type="file"
+                  name="c_image" required
+                />
+                  
+              </label>
+              <!-- You should use a button here, as the anchor is only used for the example  -->
+              <button type="submit" name="update"
+                class="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-whit transition-colors duration-150 bg-primarycolor border border-transparent rounded-lg active:bg-primarycolor hover:scale-105 focus:outline-none focus:shadow-outline-primarycolor"
+              >
+                <i class="fa fa-user-md mx-2" ></i> Update Now
+              </button>
+              
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<form action="" method="post" enctype="multipart/form-data" ><!--- form Starts -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Name: </label>
-
-<input type="text" name="c_name" class="form-control" required value="<?php echo $customer_name; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Email: </label>
-
-<input type="text" name="c_email" class="form-control" required value="<?php echo $customer_email; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Country: </label>
-
-<input type="text" name="c_country" class="form-control" required value="<?php echo $customer_country; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer City: </label>
-
-<input type="text" name="c_city" class="form-control" required value="<?php echo $customer_city; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Contact: </label>
-
-<input type="text" name="c_contact" class="form-control" required value="<?php echo $customer_contact; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Address: </label>
-
-<input type="text" name="c_address" class="form-control" required value="<?php echo $customer_address; ?>">
-
-
-</div><!-- form-group Ends -->
-
-<div class="form-group" ><!-- form-group Starts -->
-
-<label> Customer Image: </label>
-
-<input type="file" name="c_image" class="form-control" required ><br>
-
-<img src="customer_images/<?php echo $customer_image; ?>" width="100" height="100" class="img-responsive" >
-
-
-</div><!-- form-group Ends -->
-
-<div class="text-center" ><!-- text-center Starts -->
-
-<button name="update" class="btn btn-primary" >
-
-<i class="fa fa-user-md" ></i> Update Now
-
-</button>
-
-
-</div><!-- text-center Ends -->
-
-
-</form><!--- form Ends -->
 
 <?php
 

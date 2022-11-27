@@ -1,6 +1,6 @@
-<header class="shadow-md bg-gray-50 sticky top-0 left-0 z-[999]">
+<header class="shadow-md bg-gray-50 sticky top-0 left-0 z-[99]">
     <!-- topline -->
-    <div class="page-header__topline bg-primarycolor px-4 py-1 sticky top-0 left-0 z-[999]">
+    <div class="page-header__topline bg-primarycolor px-4 py-1 sticky top-0 left-0 z-[99]">
       <div class="container clearfix clear-both px-28 mx-auto flex justify-between items-center">
 
         <div class="currency flex-1">

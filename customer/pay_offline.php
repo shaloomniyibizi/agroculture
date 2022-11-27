@@ -1,45 +1,61 @@
-<center><!-- center Starts -->
 
 <h1> Pay OffLine Using Method  </h1>
 
-<p class="text-muted" >
-
-If you have any questions, please feel free to <a href="../contact.php" >contact us,</a> our customer service center is working for you 24/7.
-
-</p>
-
-</center><!-- center Ends -->
+<div class="-m-2 text-center">
+  <div class="p-2">
+    <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-teal text-sm">
+      <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center">Pink</span>
+      <span class="inline-flex px-2">
+        If you have any questions, please feel free to &nbsp;<a href="../contact.php" class="text-primarycolor font-bold" > contact us, </a> &nbsp; our customer service center is working for you 24/7.
+      </span>
+    </div>
+  </div>
+</div>
 
 <hr>
 
 
-<div class="table-responsive" ><!-- table-responsive Starts -->
+<div class="w-full overflow-x-auto" ><!-- table-responsive Starts -->
 
-<table class="table table-bordered table-hover table-striped" ><!-- table table-bordered table-hover table-striped Starts -->
+<table class="w-full whitespace-no-wrap" ><!-- table table-bordered table-hover table-striped Starts -->
 
 <thead><!-- thead Starts -->
 
-<tr>
+<tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b">
 
-<th> Bank Account Details </th>
+<th class="px-4 py-3"> Bank Account Details </th>
 
-<th> UBL Omni,Mobi Cash Details: </th>
+<th class="px-4 py-3"> UBL Omni,Mobi Cash Details: </th>
 
-<th> Western Union Details: </th>
+<th class="px-4 py-3"> Western Union Details: </th>
 
 </tr>
 
 </thead><!-- thead Ends -->
 
-<tbody><!-- tbody Starts -->
+<tbody class="bg-white divide-y"><!-- tbody Starts -->
 
-<tr>
+<tr class="text-gray-700">
 
-<td> Bank Name:ubl Account No:03333333 Branch Code:0342 Branch Name:DemoBranch	 </td>
+<td class="px-4 py-3"> 
+    <span class="block">Bank Name: Equity Bank</span> 
+    <span class="block">No: 40101005821</span> 
+    <span class="block">Branch Code: 0342</span>
+    <span class="block">Branch Name: Rusizi II</span>
+</td>
 
-<td> NIC#001230006 Mobile No:7410000000, Name:DemoName </td>
+<td class="px-4 py-3"> 
+    <span class="block">NIC#001230006</span>
+    <span class="block">Mobile No: +250 789 104 307</span>
+    <span class="block">Name:Shaloom Niyibizi </span>
+</td>
 
-<td> Full Name:Demo Name, Mobile No:7000015000, Name:Demo, Country:US, N.I.C No:011234567
+<td class="px-4 py-3"> 
+    <span class="block">Full Name: Fred Muhoza,</span>
+    <span class="block">Mobile No: +250 786 141 447,</span>
+    <span class="block">Name: Fred,</span> 
+    <span class="blo">Country: Rwanda,</span>
+    <span class="block">N.I.C No:011234567</span>
 </td>
 
 

@@ -32,6 +32,22 @@ echo $count_items;
 
 }
 
+function itemss(){
+
+global $db;
+
+$ip_add = getRealUserIp();
+
+$get_items = "select * from wishlist where ip_add = '$ip_add'";
+
+$run_items = mysqli_query($db,$get_items);
+
+$count_items = mysqli_num_rows($run_items);
+
+echo $count_items;
+
+}
+
 
 // items function Ends ///
 
